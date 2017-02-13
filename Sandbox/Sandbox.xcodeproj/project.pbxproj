@@ -15,6 +15,8 @@
 		3F8DAB8E1E51F74500158167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8DAB8C1E51F74500158167 /* Main.storyboard */; };
 		3F8DAB901E51F74500158167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8DAB8F1E51F74500158167 /* Assets.xcassets */; };
 		3F8DAB931E51F74500158167 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8DAB911E51F74500158167 /* LaunchScreen.storyboard */; };
+		3F8DAB9D1E51F7D500158167 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DAB9B1E51F7D500158167 /* README.md */; };
+		3F8DAB9E1E51F7D500158167 /* Sofware Story Board.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3F8DAB9C1E51F7D500158167 /* Sofware Story Board.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		3F8DAB8F1E51F74500158167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F8DAB921E51F74500158167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F8DAB941E51F74500158167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8DAB9B1E51F7D500158167 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F8DAB9C1E51F7D500158167 /* Sofware Story Board.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sofware Story Board.JPG"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,7 @@
 		3F8DAB761E51F74500158167 = {
 			isa = PBXGroup;
 			children = (
+				3F8DAB9A1E51F7A800158167 /* Refrence */,
 				3F8DAB811E51F74500158167 /* Sandbox */,
 				3F8DAB801E51F74500158167 /* Products */,
 			);
@@ -71,6 +76,15 @@
 				3F8DAB941E51F74500158167 /* Info.plist */,
 			);
 			path = Sandbox;
+			sourceTree = "<group>";
+		};
+		3F8DAB9A1E51F7A800158167 /* Refrence */ = {
+			isa = PBXGroup;
+			children = (
+				3F8DAB9B1E51F7D500158167 /* README.md */,
+				3F8DAB9C1E51F7D500158167 /* Sofware Story Board.JPG */,
+			);
+			name = Refrence;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F8DAB9E1E51F7D500158167 /* Sofware Story Board.JPG in Resources */,
 				3F8DAB8E1E51F74500158167 /* Main.storyboard in Resources */,
 				3F8DAB851E51F74500158167 /* GameScene.sks in Resources */,
 				3F8DAB901E51F74500158167 /* Assets.xcassets in Resources */,
@@ -149,6 +164,7 @@
 			files = (
 				3F8DAB891E51F74500158167 /* GameScene.swift in Sources */,
 				3F8DAB8B1E51F74500158167 /* GameViewController.swift in Sources */,
+				3F8DAB9D1E51F7D500158167 /* README.md in Sources */,
 				3F8DAB831E51F74500158167 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
