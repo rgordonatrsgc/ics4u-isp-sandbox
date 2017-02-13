@@ -76,3 +76,4 @@ Once you choose a new object, text "tap to place" will appear and the new opject
 When adding new elements, there will be mass and friction sliders. There will be more options, like walls, when you scroll down further.
 
 For all the actual values you can tap to type in a value or, just adjust the sliders.
+[storyboard](https://github.com/cnoblec/ics4u-isp-sandbox/blob/master/Sofware%20Story%20Board.JPG?raw=true)
